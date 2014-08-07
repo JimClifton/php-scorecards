@@ -1,0 +1,18 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="480" width="640" y="0" x="1" stroke-width="0" stroke="#000000" fill="#82bc43"/>
+  <ellipse ry="81" rx="357" id="svg_2" cy="486" cx="154" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#437a33"/>
+  <ellipse id="svg_5" ry="99" rx="357" cy="499" cx="542" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#329338"/>
+  <rect id="svg_6" height="101" width="6" y="98" x="1907" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#7f0000"/>
+  <path id="svg_8" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#7f0000"/>
+  <path id="svg_11" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#5a9b18"/>
+  <path id="svg_12" d="m542,309l-1,38l-45,-17.92453l46,-20.07547z" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#e0c428"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="21" id="svg_14" y="336" x="528" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">1</text>
+  <ellipse ry="4" rx="12" id="svg_15" cy="433" cx="541" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#29491d"/>
+  <rect id="svg_7" height="123" width="4" y="310" x="539" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#8e0f0f"/>
+  <circle fill="#ffffff" stroke="#000000" cx="495" cy="433" r="6.32456" id="svg_4"/>
+  <circle id="svg_3" fill="#ffffff" stroke="#000000" cx="593" cy="466.99999" r="6.32456"/>
+ </g>
+</svg>

@@ -2,24 +2,29 @@
 
 class UsersController extends BaseController {
 
-	public function index() {
-		$title = 'Users';
-		$users = User::all();
-		return View::make('users', ['title' => $title, 'users' => $users]);
+	public function create ()
+	{
+		return View::make('users.create');
 	}
 
-	public function create() {
-		$title = 'Register';
-		return View::make('register', ['title' => $title]);
-	}
+	public function store ()
+	{
+		if (!User::isValid(Input::all())) {
+			return Redirect::back()->with([
+				'flash_message' => 'Check your details and try again.', 
+				'alert' => 'danger'
+			]);
+		}
 
-	public function store () {
 		$user = new User;
 		$user->username = Input::get('username');
 		$user->password = Hash::make(Input::get('password'));
 		$user->save();
 
-		return Redirect::route('users.index');
+		return Redirect::to('login')->with([
+			'flash_message' => 'Your account has been created, you can now login', 
+			'alert' => 'success'
+		]);
 	}
 
 }

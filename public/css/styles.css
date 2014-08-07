@@ -1,0 +1,63 @@
+h1 {color:#333;}
+a, a:hover {color:#333;}
+
+h1 {font-size:1.6em; margin-top:5px;}
+h3 {font-size:1.3em;}
+
+body{background-attachment:fixed; background-position:bottom; background-size:100%; background-color:#8aa2dc; color:#333; background-image:url(../images/bg-course.png); background-repeat: no-repeat;}
+.navbar-inverse {background-color:rgba(0,0,0,0.3); border:0;}
+.navbar-inverse .navbar-brand {color: #EEE; font-size:1.4em;}
+.navbar-inverse .navbar-toggle .icon-bar {background-color: #fff;}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {background-color:rgba(0,0,0,0.5);}
+.navbar-inverse .navbar-toggle {border: 0;}
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form {border-color:rgba(0,0,0,0.4);}
+.navbar-inverse .navbar-nav>li>a {color: #fff;}
+
+.btn-primary {color:#fff; background-color:rgba(0,0,0,0.3); border:none;}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {color:#fff; background-color:rgba(0,0,0,0.4); border:none;}
+
+form .btn-primary {color:#fff; background-color:rgba(0,0,0,0.6); border:none;}
+
+.form-control {border:none;}
+
+/* HELPERS */
+.bg-white {background: rgba(255, 255, 255, 0.43);}
+a.bg-white:hover {background: rgba(255, 255, 255, 0.60);}
+.rounded {border-radius:4px;}
+.shadow {-webkit-box-shadow: 0 8px 6px -6px rgba(35, 68, 35, 0.36); -moz-box-shadow: 0 8px 6px -6px rgba(35, 68, 35, 0.36); box-shadow: 0 8px 6px -6px rgba(35, 68, 35, 0.36);}
+.align-right {text-align:right;}
+.align-center {text-align:center;}
+.align-left {text-align:left;}
+.margin-sml {margin-bottom:10px;}
+.margin-med {margin-bottom:20px;}
+.margin-lrg {margin-bottom:30px;}
+
+.session_menu {float:right; margin:15px 20px 0 0;}
+.session_menu li {display:inline-block; color:#ccc; font-size:1em;}
+.session_menu li a {margin-left:10px; color:#82bc43;}
+
+.myrow {padding:12px 0; margin:0 0 12px 0; overflow:hidden; display:block; color:#333;}
+
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {color:rgba(255, 255, 255, 0.5);}
+
+.played_date {float:right; font-size:1.2em; font-weight:bold; margin-top:22px;}
+
+.scorecard {padding-bottom:20px;}
+.scorecard span {text-align:center; display:block; width:100%; border-bottom:1px dotted #779B52; padding:2px 0;}
+.scorecard span:last-child {border:0;}
+
+.over {color:red;}
+.under {color:yellow;}
+
+.nav-tabs {border-bottom:none;}
+.nav-tabs li {width:50%;}
+.nav-tabs li a {background:rgba(255, 255, 255, 0.2); border-radius: 4px 4px 0 0; border:none; bottom:1px;}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {background-color:rgba(255, 255, 255, 0.43); border:none;}

@@ -4,15 +4,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>{{ $title }}</h1>
+				<h1>Login</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				
-				{{ Form::open(['route' => 'users.store']) }}
+				{{ Form::open(['route' => 'sessions.store']) }}
 					<div class="form-group">
-						{{ Form::label('username', 'Username :') }}
+						{{ Form::label('username', 'Email :') }}
 						{{ Form::text('username', '', array('class' => 'form-control')) }}
 					</div>
 					<div class="form-group">
@@ -20,10 +19,9 @@
 						{{ Form::password('password', array('class' => 'form-control')) }}
 					</div>
 					<div class="form-group">
-						{{ Form::submit('Create account', array('class' => 'btn btn-primary')) }}
+						{{ Form::submit('Login', array('class' => 'btn btn-default')) }}
 					</div>
 				{{ Form::close() }}
-				
 			</div>
 		</div>
 	</div>
